@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308F961922C6E61400BE1BAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F961822C6E61400BE1BAD /* LoginViewController.swift */; };
 		30BFCBC422C57BB1003506BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBC322C57BB1003506BA /* AppDelegate.swift */; };
 		30BFCBC622C57BB1003506BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBC522C57BB1003506BA /* ViewController.swift */; };
 		30BFCBC922C57BB1003506BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BFCBC722C57BB1003506BA /* Main.storyboard */; };
 		30BFCBCB22C57BB3003506BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BFCBCA22C57BB3003506BA /* Assets.xcassets */; };
 		30BFCBCE22C57BB3003506BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BFCBCC22C57BB3003506BA /* LaunchScreen.storyboard */; };
-		30BFCBD922C57BB3003506BA /* Nerde_YesemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBD822C57BB3003506BA /* Nerde_YesemTests.swift */; };
-		30BFCBE422C57BB3003506BA /* Nerde_YesemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBE322C57BB3003506BA /* Nerde_YesemUITests.swift */; };
+		30BFCBF422C62282003506BA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBF322C62282003506BA /* BaseView.swift */; };
+		30BFCBF622C623CE003506BA /* DetailRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBF522C623CE003506BA /* DetailRestaurantView.swift */; };
+		30BFCBFB22C625B5003506BA /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBFA22C625B5003506BA /* RestaurantCell.swift */; };
+		30BFCC0022C62618003506BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCBFF22C62618003506BA /* Models.swift */; };
+		30BFCC0422C62681003506BA /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCC0322C62681003506BA /* RestaurantDetailsViewController.swift */; };
+		30BFCC0622C62772003506BA /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCC0522C62772003506BA /* RestaurantTableViewController.swift */; };
+		30BFCC0822C62792003506BA /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCC0722C62792003506BA /* RestaurantTableViewCell.swift */; };
+		30BFCC1122C62BCF003506BA /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCC1022C62BCF003506BA /* LocationService.swift */; };
+		30BFCC1422C62C4E003506BA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFCC1322C62C4E003506BA /* NetworkService.swift */; };
+		D4F797842E6B7F99733A563A /* Pods_Nerde_Yesem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AA9845E564721AE8AECC0F /* Pods_Nerde_Yesem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308F961822C6E61400BE1BAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		30BFCBC022C57BB1003506BA /* Nerde Yesem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nerde Yesem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BFCBC322C57BB1003506BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BFCBC522C57BB1003506BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +52,19 @@
 		30BFCBCD22C57BB3003506BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30BFCBCF22C57BB3003506BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BFCBD422C57BB3003506BA /* Nerde YesemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nerde YesemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30BFCBD822C57BB3003506BA /* Nerde_YesemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nerde_YesemTests.swift; sourceTree = "<group>"; };
-		30BFCBDA22C57BB3003506BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BFCBDF22C57BB3003506BA /* Nerde YesemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nerde YesemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30BFCBE322C57BB3003506BA /* Nerde_YesemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nerde_YesemUITests.swift; sourceTree = "<group>"; };
-		30BFCBE522C57BB3003506BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BFCBF322C62282003506BA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		30BFCBF522C623CE003506BA /* DetailRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestaurantView.swift; sourceTree = "<group>"; };
+		30BFCBFA22C625B5003506BA /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		30BFCBFF22C62618003506BA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		30BFCC0322C62681003506BA /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+		30BFCC0522C62772003506BA /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		30BFCC0722C62792003506BA /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		30BFCC1022C62BCF003506BA /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		30BFCC1322C62C4E003506BA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		37AA9845E564721AE8AECC0F /* Pods_Nerde_Yesem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nerde_Yesem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BF8E2426009DF50589BEE5 /* Pods-Nerde Yesem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nerde Yesem.release.xcconfig"; path = "Target Support Files/Pods-Nerde Yesem/Pods-Nerde Yesem.release.xcconfig"; sourceTree = "<group>"; };
+		804249532D0A7656E5644814 /* Pods-Nerde Yesem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nerde Yesem.debug.xcconfig"; path = "Target Support Files/Pods-Nerde Yesem/Pods-Nerde Yesem.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F797842E6B7F99733A563A /* Pods_Nerde_Yesem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +93,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1609D3BE1CA8A366E1757DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				804249532D0A7656E5644814 /* Pods-Nerde Yesem.debug.xcconfig */,
+				62BF8E2426009DF50589BEE5 /* Pods-Nerde Yesem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		308F961722C6E5FB00BE1BAD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				308F961822C6E61400BE1BAD /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		30BFCBB722C57BB1003506BA = {
 			isa = PBXGroup;
 			children = (
 				30BFCBC222C57BB1003506BA /* Nerde Yesem */,
-				30BFCBD722C57BB3003506BA /* Nerde YesemTests */,
-				30BFCBE222C57BB3003506BA /* Nerde YesemUITests */,
 				30BFCBC122C57BB1003506BA /* Products */,
+				1609D3BE1CA8A366E1757DE8 /* Pods */,
+				92E4E50FC74371A952C6E5FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +133,9 @@
 		30BFCBC222C57BB1003506BA /* Nerde Yesem */ = {
 			isa = PBXGroup;
 			children = (
+				30BFCC0E22C62BB9003506BA /* Services */,
+				30BFCC0A22C627B5003506BA /* Models */,
+				30BFCBF122C62252003506BA /* UI */,
 				30BFCBC322C57BB1003506BA /* AppDelegate.swift */,
 				30BFCBC522C57BB1003506BA /* ViewController.swift */,
 				30BFCBC722C57BB1003506BA /* Main.storyboard */,
@@ -107,22 +146,99 @@
 			path = "Nerde Yesem";
 			sourceTree = "<group>";
 		};
-		30BFCBD722C57BB3003506BA /* Nerde YesemTests */ = {
+		30BFCBF122C62252003506BA /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				30BFCBD822C57BB3003506BA /* Nerde_YesemTests.swift */,
-				30BFCBDA22C57BB3003506BA /* Info.plist */,
+				30BFCBF222C62264003506BA /* Screens */,
+				30BFCBF322C62282003506BA /* BaseView.swift */,
 			);
-			path = "Nerde YesemTests";
+			path = UI;
 			sourceTree = "<group>";
 		};
-		30BFCBE222C57BB3003506BA /* Nerde YesemUITests */ = {
+		30BFCBF222C62264003506BA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				30BFCBE322C57BB3003506BA /* Nerde_YesemUITests.swift */,
-				30BFCBE522C57BB3003506BA /* Info.plist */,
+				308F961722C6E5FB00BE1BAD /* Login */,
+				30BFCBFC22C625D1003506BA /* List */,
+				30BFCBF722C62577003506BA /* Details */,
 			);
-			path = "Nerde YesemUITests";
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		30BFCBF722C62577003506BA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC0B22C62828003506BA /* Views */,
+				30BFCC0322C62681003506BA /* RestaurantDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		30BFCBFC22C625D1003506BA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC0922C627A8003506BA /* Views */,
+				30BFCC0522C62772003506BA /* RestaurantTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		30BFCC0922C627A8003506BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC0722C62792003506BA /* RestaurantTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30BFCC0A22C627B5003506BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCBFF22C62618003506BA /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30BFCC0B22C62828003506BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCBF522C623CE003506BA /* DetailRestaurantView.swift */,
+				30BFCBFA22C625B5003506BA /* RestaurantCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30BFCC0E22C62BB9003506BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC1222C62C41003506BA /* Network */,
+				30BFCC0F22C62BBE003506BA /* Location */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30BFCC0F22C62BBE003506BA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC1022C62BCF003506BA /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		30BFCC1222C62C41003506BA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				30BFCC1322C62C4E003506BA /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		92E4E50FC74371A952C6E5FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AA9845E564721AE8AECC0F /* Pods_Nerde_Yesem.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BFCBE822C57BB3003506BA /* Build configuration list for PBXNativeTarget "Nerde Yesem" */;
 			buildPhases = (
+				164F8A23D445E0B24753C2F1 /* [CP] Check Pods Manifest.lock */,
 				30BFCBBC22C57BB1003506BA /* Sources */,
 				30BFCBBD22C57BB1003506BA /* Frameworks */,
 				30BFCBBE22C57BB1003506BA /* Resources */,
+				7297936F9A37993116176BD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +369,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		164F8A23D445E0B24753C2F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nerde Yesem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7297936F9A37993116176BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nerde Yesem/Pods-Nerde Yesem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nerde Yesem/Pods-Nerde Yesem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30BFCBBC22C57BB1003506BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308F961922C6E61400BE1BAD /* LoginViewController.swift in Sources */,
+				30BFCC1422C62C4E003506BA /* NetworkService.swift in Sources */,
+				30BFCBFB22C625B5003506BA /* RestaurantCell.swift in Sources */,
 				30BFCBC622C57BB1003506BA /* ViewController.swift in Sources */,
+				30BFCC1122C62BCF003506BA /* LocationService.swift in Sources */,
+				30BFCC0622C62772003506BA /* RestaurantTableViewController.swift in Sources */,
+				30BFCC0422C62681003506BA /* RestaurantDetailsViewController.swift in Sources */,
+				30BFCC0022C62618003506BA /* Models.swift in Sources */,
+				30BFCBF622C623CE003506BA /* DetailRestaurantView.swift in Sources */,
+				30BFCBF422C62282003506BA /* BaseView.swift in Sources */,
+				30BFCC0822C62792003506BA /* RestaurantTableViewCell.swift in Sources */,
 				30BFCBC422C57BB1003506BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +446,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BFCBD922C57BB3003506BA /* Nerde_YesemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BFCBE422C57BB3003506BA /* Nerde_YesemUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +609,14 @@
 		};
 		30BFCBE922C57BB3003506BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804249532D0A7656E5644814 /* Pods-Nerde Yesem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVJT3KZ38D;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods";
 				INFOPLIST_FILE = "Nerde Yesem/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +630,14 @@
 		};
 		30BFCBEA22C57BB3003506BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BF8E2426009DF50589BEE5 /* Pods-Nerde Yesem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVJT3KZ38D;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods";
 				INFOPLIST_FILE = "Nerde Yesem/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
